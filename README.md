@@ -11,6 +11,6 @@ in order to learn how to build a web app in Go.
 3. To spin down the database: `sudo mysqladmin shutdown --socket=$MYSQL_UNIX_PORT`
     - Where `$MYSQL_UNIX_PORT` is the `mysql.sock` created in the root of the
     project directory from the use of `nix develop` and removed when running
-    **step 2**.
+    **step 3**.
 
 TODO: Need to create a shell script to populate the MySQL database
